@@ -4,9 +4,7 @@ body {
     background-color: black;
     font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", 
   Helvetica, Arial, "Lucida Grande", sans-serif;
-    min-width: 1440px;
-    max-width: 1440px;
-    margin: auto;
+    margin: 0;
 }
 
 ul {
@@ -38,10 +36,9 @@ button#testimonial {
 }
 
 /* HEADER */
-
 .header {
     position: fixed;
-    min-width: 1020px;
+    width: 78%;
     background-color: #1F2937;
     color: #F9FAF8;
     font-size: 24px;
@@ -100,7 +97,6 @@ button#testimonial {
 }
 
 /* INFORMATION */
-
 .information {
     background-color: white;
     font-size: 36px;
@@ -169,6 +165,7 @@ button#testimonial {
 .cta-subcontainer {
     display: flex;
     flex: 1;
+    flex-wrap: wrap;
     background-color: #3882F6;
     padding: 48px 115px;
     border-radius: 8px;
